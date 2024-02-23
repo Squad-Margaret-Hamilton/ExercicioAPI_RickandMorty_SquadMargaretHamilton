@@ -2,6 +2,7 @@
 
 ##Alunas contribuintes nesse exercicio
 
+
 #Priscila Nakayama
 #Marcela 
 #Andreia 
