@@ -58,7 +58,7 @@ def get_location_id(id):     # carrega um parâmetro para a rota
     return render_template("location_id.html", location_id=dict)
 
 
-@app.route("/local")    #rota para a listar as localizacoes
+@app.route("/locations")    #rota para a listar as localizacoes
 def get_list_local():
     url = "https://rickandmortyapi.com/api/location/"
     response = urllib.request.urlopen(url)   #pega os dados
